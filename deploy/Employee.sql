@@ -5,13 +5,13 @@ USE WAREHOUSE &warehouse;
 
 -- XXX Add DDLs here.
 CREATE TABLE test.emp (
-    empid   INT        PRIMARY KEY AUTO INCREMENT,
+    empid   INT        PRIMARY KEY AUTOINCREMENT,
     name  TEXT         NOT NULL,
     address  TEXT         NOT NULL,
     emailid TEXT         NOT NULL
   
 );
-Insert into test.emp values
+Insert into emp(name,address,emailid) values
 ('Rutuja Gholap','Pune','rutuja.gholap@snowflake.com'),
 ('Ankita Pawar','Nashik','ankita.pawar@snowflake.com'),
 ('Komal Jadhav','Mumbai','komal.jadhav@snowflake.com'),
