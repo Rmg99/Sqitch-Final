@@ -3,4 +3,4 @@
 USE WAREHOUSE &warehouse;
 
 -- XXX Add DDLs here.
-Drop Schema Sample;
+Drop Schema test;
