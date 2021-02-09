@@ -3,6 +3,4 @@
 USE WAREHOUSE &warehouse;
 
 -- XXX Add verifications here.
-SELECT name,address,emailid
-  FROM test.emp
- WHERE FALSE;
+SELECT name,address,emailid  FROM test.emp WHERE FALSE;
