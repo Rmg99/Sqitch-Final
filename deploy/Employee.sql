@@ -11,7 +11,7 @@ CREATE TABLE test.emp (
     emailid TEXT         NOT NULL
   
 );
-Insert into emp(name,address,emailid) values
+Insert into test.emp(name,address,emailid) values
 ('Rutuja Gholap','Pune','rutuja.gholap@snowflake.com'),
 ('Ankita Pawar','Nashik','ankita.pawar@snowflake.com'),
 ('Komal Jadhav','Mumbai','komal.jadhav@snowflake.com'),
