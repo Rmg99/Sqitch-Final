@@ -3,4 +3,4 @@
 USE WAREHOUSE &warehouse;
 
 -- XXX Add verifications here.
-CREATE TEMPORARY TABLE Sample.verify__ (id INT);
+CREATE TEMPORARY TABLE test.verify__ (id INT);
