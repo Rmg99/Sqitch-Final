@@ -5,17 +5,13 @@ pipeline {
       timeout(time: 1, unit: 'HOURS') 
 
   }
-
   agent{
 
         docker {
-
           image '983436/sqitch-snowflake:v1.0'
-
-          args "-u root -v /var/run/docker.sock:/var/run/docker.sock --entrypoint=''"
+         args "-u root -v /var/run/docker.sock:/var/run/docker.sock --entrypoint=''"
 
         }
-
     }
 
  stages{
