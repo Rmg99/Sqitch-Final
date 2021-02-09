@@ -7,6 +7,6 @@ USE WAREHOUSE &warehouse;
 CREATE TABLE test.emp (
     name  TEXT         PRIMARY KEY,
     address  TEXT         NOT NULL,
-    emailid TEXT         NOT NULL,
+    emailid TEXT         NOT NULL
   
 );
