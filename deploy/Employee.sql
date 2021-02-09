@@ -10,3 +10,4 @@ CREATE TABLE test.emp (
     emailid TEXT         NOT NULL
   
 );
+Insert into test.emp values("Rutuja Gholap","Pune","rutuja.gholap@snowflake.com");
