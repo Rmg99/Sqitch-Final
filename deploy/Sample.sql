@@ -3,4 +3,4 @@
 USE WAREHOUSE &warehouse;
 
 -- XXX Add DDLs here.
-Create schema Sample;
+Create schema test;
