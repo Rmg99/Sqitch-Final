@@ -25,7 +25,7 @@ pipeline {
          stage('Sqitch Revert'){
             steps {
                 withCredentials([usernamePassword(credentialsId: 'Sqitch', passwordVariable: 'PASSWORD', usernameVariable: 'USERNAME')]) {
-            sh 'sqitch deploy "db:snowflake://$USERNAME:$PASSWORD@fwa76732/Sqitch_Jenkins?Driver=Snowflake;warehouse=compute_wh"'
+            sh 'sqitch revert "db:snowflake://$USERNAME:$PASSWORD@fwa76732/Sqitch_Jenkins?Driver=Snowflake;warehouse=compute_wh"'
                         }
                     }
         }
