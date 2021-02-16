@@ -4,5 +4,4 @@
 
 Sample 2021-02-09T09:38:19Z RutujaGholap <rutujamgholap99@gmail.com> # Creating Sample schema in Sqitch_Jenkins database
 Employee [Sample] 2021-02-09T09:59:11Z RutujaGholap <rutujamgholap99@gmail.com> # Creating a sample employee table
-new1 2021-02-16T04:50:51Z RutujaGholap <rutujamgholap99@gmail.com> # Adding schema test2
-view [Sample Employee] 2021-02-16T05:05:12Z RutujaGholap <rutujamgholap99@gmail.com> # Creating View for Emp table
+trial 2021-02-16T07:35:53Z ankitapawar <ankita.pawar@snowflake.com> # for trial
